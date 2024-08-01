@@ -1,0 +1,80 @@
+
+.main {
+    font-family: Arial, sans-serif;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    margin-top: 40px;
+}
+body{
+	background-image: url('D:\java\Servlets1\lms\images\background1.jpeg');
+}
+.container {
+    display: flex;
+    width: 500px;
+    height: 300px;
+    
+    background-color: #fff;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+}
+.box {
+    padding: 10px;
+    width: 60%;
+}
+.box-left {
+    border-right: 1px solid #f0f0f0;
+    
+}
+.box-right {
+    border-left: 1px solid #f0f0f0;
+    background: linear-gradient(rgb(45, 210, 133),rgb(17, 187, 184));
+    color: white;
+    width: 200px;
+    border-radius: 0px 15px 15px 0px;
+}
+h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+.input-group {
+    margin-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 50px;
+    
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px grey;
+}
+.button-group {
+    text-align: center;
+    display: flex;
+    justify-content: center; /* Horizontally center */
+    align-items: bottom;
+    margin-top: 40px;
+    
+    
+}
+.button-group button,#submit {
+    padding: 10px 20px;
+    background: linear-gradient(rgb(25, 65, 224),rgb(31, 212, 212));
+    border: none;
+    border-radius: 15px;
+    color: white;
+    cursor: pointer;
+    width: 150px;
+    box-shadow: 2px 2px 5px grey,
+                3px 3px 6px black ;
+}
+.button-group button:hover {
+    background-color: #0056b3;
+}
+
+
